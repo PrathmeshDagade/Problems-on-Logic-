@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+// File name : assignment1-3.c 
+// File Discription : Program to print 5 to 1 numbers on screen 
+// Author : prathmesh Dagade 
+// Date : 10.05.2025
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//  Function name :        void Display
+//  Function Discription : function is desined to print 5 to 1 numbeer on screen 
+//  Author :               prathmesh Dagade 
+//  Date :                 10.05.2025
+//////////////////////////////////////////////////////////////////////////////////////////////
+# include <stdio.h>
+
+void Display ()
+{
+    
+    int  i = 0 ;
+    i = 5 ; 
+    while (  i >= 1  )
+    {
+        printf(" %d \n",i);
+        i-- ;
+    }
+}
+
+int main ()
+{
+    Display () ;
+
+    return 0 ;
+}
